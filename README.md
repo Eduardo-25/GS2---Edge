@@ -3,7 +3,7 @@
 Monitoramento de Temperatura, Umidade e Poeira com ESP32
 Este projeto utiliza um ESP32 para monitorar temperatura, umidade e poeira em tempo real, publicando os dados coletados em um broker MQTT. Ele também ativa um LED de alerta em caso de condições anormais, como temperaturas fora da faixa de segurança (0°C a 40°C) ou níveis elevados de poeira.
 
- Descrição
+📋 Descrição
 O projeto foi projetado para cenários de monitoramento ambiental, como estufas, laboratórios ou ambientes industriais. Ele emprega:
 
 Sensor DHT22: Para leitura de temperatura e umidade.
@@ -15,11 +15,11 @@ Temperatura Alta: Acima de 40°C.
 Temperatura Baixa: Abaixo de 0°C.
 Nível de Poeira Elevado: Acima de 10 g/m³.
 O LED permanecerá ligado enquanto qualquer alerta persistir.
- Utilidades
+🚀 Utilidades
 Monitoramento Ambiental: Acompanhe as condições de temperatura, umidade e qualidade do ar em tempo real.
 Automação Residencial ou Industrial: Integre o sistema a aplicações IoT através do MQTT.
 Notificações de Alerta: Identifique rapidamente condições ambientais fora do padrão.
- Instruções de Uso
+🛠️ Instruções de Uso
 Montagem do Circuito:
 
 Conecte o DHT22 ao pino 15 do ESP32.
@@ -38,7 +38,7 @@ monitoramento/temperatura: Temperatura em °C.
 monitoramento/umidade: Umidade em %.
 monitoramento/poeira: Poeira em g/m³.
 monitoramento/alertas: Alertas emitidos pelo sistema.
- Requisitos e Dependências
+📦 Requisitos e Dependências
 Hardware
 ESP32 (ou equivalente com suporte a Wi-Fi e pinos analógicos/digitais).
 DHT22 (Sensor de Temperatura e Umidade).
