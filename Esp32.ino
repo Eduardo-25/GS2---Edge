@@ -127,6 +127,6 @@ void loop() {
     Serial.println("Erro ao ler os dados do DHT22.");
   }
 
-  // Atraso de 5 segundos antes da próxima leitura
+  // Atraso de 2 segundos antes da próxima leitura
   delay(2000);
 }
